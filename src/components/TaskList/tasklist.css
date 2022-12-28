@@ -1,0 +1,50 @@
+.tasklist {
+  padding: 8px;
+  background-color: #5797b9;
+}
+
+.tasklist .btn {
+  margin-top: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  background: none;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background: rgb(33, 122, 122);
+  transition: background-color 0.3s;
+}
+
+.tasklist .btn:hover {
+  background-color: rgb(19, 199, 199);
+  cursor: pointer;
+}
+
+.empty-list {
+  display: flex;
+  justify-content: center;
+  border: 3px solid;
+  border-style: dashed;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.tasklist .btn img {
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.tasklist .title {
+  padding: 4px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tasklist .content {
+  padding: 16px 4px;
+  display: flex;
+  flex-direction: column;
+}

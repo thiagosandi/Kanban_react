@@ -1,2 +1,2 @@
-# Kanban_react
+# react_kanban
 Created with CodeSandbox
